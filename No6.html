@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Assignment1</title>
+
+	<script type="text/javascript">
+		function MySum()
+		{
+			n1=parseInt(document.myForm.textBox1.value);
+			n2=parseInt(document.myForm.textBox2.value);
+			Result=n1+n2;
+			alert(Result);
+		}
+		function MySub()
+		{
+			n1=parseInt(document.myForm.textBox1.value);
+			n2=parseInt(document.myForm.textBox2.value);
+			Result=n1-n2;
+			alert(Result);
+		}
+		function MyMul()
+		{
+			n1=parseInt(document.myForm.textBox1.value);
+			n2=parseInt(document.myForm.textBox2.value);
+			Result=n1*n2;
+			alert(Result);
+		}
+		function MyDiv()
+		{
+			n1=parseInt(document.myForm.textBox1.value);
+			n2=parseInt(document.myForm.textBox2.value);
+			Result=n1n2;
+			alert(Result);
+		}
+	</script>
+</head>
+<body>
+	<form name="myForm">
+		<label>Number One</label>
+		<input type="text" name="textBox1"><br>
+		<label>Number Two</label>
+		<input type="text" name="textBox2"><br>
+		<input type="button" onclick="MySum()" value="Sum">
+		<input type="button" onclick="MySub()" value="Sub">
+		<input type="button" onclick="MyMul()" value="Mul">
+		<input type="button" onclick="MyDiv()" value="Div">
+	</form>
+</body>
+</html>
